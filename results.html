@@ -1,0 +1,294 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>constraint</th>
+      <th>constraint_status</th>
+      <th>constraint_message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>CompletenessConstraint(Completeness(track_name,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>CompletenessConstraint(Completeness(artist(s)_name,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>CompletenessConstraint(Completeness(artist_count,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>CompletenessConstraint(Completeness(released_year,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>CompletenessConstraint(Completeness(released_month,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>CompletenessConstraint(Completeness(released_day,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>CompletenessConstraint(Completeness(in_spotify_playlists,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>CompletenessConstraint(Completeness(in_spotify_charts,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>CompletenessConstraint(Completeness(streams,None,None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9727177334732424 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>CompletenessConstraint(Completeness(in_apple_playlists,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>CompletenessConstraint(Completeness(in_apple_charts,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>CompletenessConstraint(Completeness(in_deezer_playlists,None,None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9171038824763903 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>CompletenessConstraint(Completeness(in_deezer_charts,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>CompletenessConstraint(Completeness(in_shazam_charts,None,None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9401888772298006 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>CompletenessConstraint(Completeness(bpm,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>CompletenessConstraint(Completeness(key,None,None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9003147953830011 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>CompletenessConstraint(Completeness(mode,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>CompletenessConstraint(Completeness(danceability_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>CompletenessConstraint(Completeness(valence_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>CompletenessConstraint(Completeness(energy_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>CompletenessConstraint(Completeness(acousticness_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>CompletenessConstraint(Completeness(instrumentalness_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>CompletenessConstraint(Completeness(liveness_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>CompletenessConstraint(Completeness(speechiness_%,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>CompletenessConstraint(Completeness(cover_url,None,None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>ComplianceConstraint(Compliance(artist_count is non-negative,`artist_count` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ComplianceConstraint(Compliance(released_year is non-negative,`released_year` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>ComplianceConstraint(Compliance(released_month is non-negative,`released_month` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>ComplianceConstraint(Compliance(released_day is non-negative,`released_day` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>ComplianceConstraint(Compliance(in_spotify_playlists is non-negative,`in_spotify_playlists` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>ComplianceConstraint(Compliance(in_spotify_charts is non-negative,`in_spotify_charts` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>ComplianceConstraint(Compliance(streams is non-negative,`streams` &gt;= 0,None,List(),None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9727177334732424 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>ComplianceConstraint(Compliance(in_apple_playlists is non-negative,`in_apple_playlists` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>ComplianceConstraint(Compliance(in_apple_charts is non-negative,`in_apple_charts` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>ComplianceConstraint(Compliance(in_deezer_playlists is non-negative,`in_deezer_playlists` &gt;= 0,None,List(),None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9171038824763903 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>ComplianceConstraint(Compliance(in_deezer_charts is non-negative,`in_deezer_charts` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>ComplianceConstraint(Compliance(in_shazam_charts is non-negative,`in_shazam_charts` &gt;= 0,None,List(),None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9401888772298006 does not meet the constraint requirement!</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>ComplianceConstraint(Compliance(bpm is non-negative,`bpm` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>ComplianceConstraint(Compliance(danceability_% is non-negative,`danceability_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>ComplianceConstraint(Compliance(valence_% is non-negative,`valence_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>ComplianceConstraint(Compliance(energy_% is non-negative,`energy_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>ComplianceConstraint(Compliance(acousticness_% is non-negative,`acousticness_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>ComplianceConstraint(Compliance(instrumentalness_% is non-negative,`instrumentalness_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>ComplianceConstraint(Compliance(liveness_% is non-negative,`liveness_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>ComplianceConstraint(Compliance(speechiness_% is non-negative,`speechiness_%` &gt;= 0,None,List(),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>ComplianceConstraint(Compliance(mode contained in Major,Minor,`mode` IS NULL OR `mode` IN ('Major','Minor'),None,List(mode),None))</td>
+      <td>Success</td>
+      <td></td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>UniquenessConstraint(Uniqueness(List(track_name),None,None))</td>
+      <td>Failure</td>
+      <td>Value: 0.9790136411332634 does not meet the constraint requirement!</td>
+    </tr>
+  </tbody>
+</table>
